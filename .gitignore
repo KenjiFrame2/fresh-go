@@ -1,0 +1,21 @@
+# Зависимости
+node_modules/
+.npm/
+
+# Сборка
+dist/
+build/
+
+# Секреты и настройки
+.env
+*.local
+
+# Специфичное для Prisma и Docker
+.prisma/
+postgres_data/
+
+# Логи и временные файлы
+*.log
+npm-debug.log*
+.DS_Store
+uploads/
